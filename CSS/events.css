@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comic Neue', cursive; 
+}
+/* Navbar */
+.nav-menu{
+     padding: 25px; 
+}
+.fas{
+    color: #dbc1ac;
+}
+.menu{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #634832;
+    transition: all .4s;
+
+}
+.menu:hover{
+    color: tomato;
+}
+.bar1, .bar2, .bar3{
+    background-color: #634832;
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .4s;
+
+}
+.navbar-toggler{
+    outline: none!important;
+}
+.bac{
+    width: 100%;
+}
+/* video section */
+.most-liked{
+    position:relative;
+    margin-top: 25px;
+}
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    /* opacity: .8; */
+}
+.bg-video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* end of VS */
+/* products */
+.row-2{
+    
+    margin: 10px auto 50px;
+    margin-left: 260px;
+}
+.car-card{
+    position: relative;
+    box-shadow: 5px 15px 50px #634832;
+    max-width: 420px;
+    transition: all .8s;
+    overflow: hidden;
+    cursor: pointer;
+}
+.card-header .title-text{
+    color: #000;
+}
+.rotate{
+    perspective: 100rem;
+}
